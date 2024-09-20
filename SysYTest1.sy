@@ -1,0 +1,18 @@
+int SUM(int x,int y){
+    return x+y;
+}
+
+int main(){
+
+    int a=10;
+    int b=20;
+
+    int sum=SUM(a,b);
+
+    putf("The result of %d + %d is %d",a,b,sum);
+
+    return sum;
+
+
+}
+
