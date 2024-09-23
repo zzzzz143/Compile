@@ -6,15 +6,15 @@
     .attribute stack_align,16
 
     .data
-    zero_float: .float 0.000     # 在数据段定义一个浮点数 0.0
-    sum: .float 0.000
-
-.LC0:
-    .string "     The result is %.3f.\n"
-.LC1:
-    .string "Please input 第 %d 个:"
 .LC2:
     .string "%f"
+.LC0:
+    .string "The result is %.3f.\n"
+.LC1:
+    .string "Please input 第 %d 个:"
+
+    zero_float: .float 0.000     # 在数据段定义一个浮点数 0.0
+    sum: .float 0.000
 
 
     .text
@@ -78,7 +78,9 @@ main:
     fmv.d fa5,fs0  
     fcvt.d.s fa5,fa5   #扩展为双精度
     fmv.x.d a1,fa5  #浮点寄存器到整型寄存器
-    la a0,.LC0
+    lui a0,%hi(.LC0)
+    addi a0,a0,%lo(.LC0)
+    #la a0,.LC0
     call putf
 
 

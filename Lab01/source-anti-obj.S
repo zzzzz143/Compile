@@ -15,9 +15,9 @@ Disassembly of section .text:
   1b:	48 83 c4 10          	add    $0x10,%rsp
   1f:	5d                   	pop    %rbp
   20:	c3                   	ret    
-  21:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
-  28:	00 00 00 00 
-  2c:	0f 1f 40 00          	nopl   0x0(%rax)
+  21:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+  28:	00 00 00 
+  2b:	0f 1f 44 00 00       	nopl   0x0(%rax,%rax,1)
 
 0000000000000030 <main>:
   30:	55                   	push   %rbp
