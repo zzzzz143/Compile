@@ -1,0 +1,970 @@
+| | |   `-RecordType 0x1593ad0 'std::basic_ios<char>'
+| | |     `-ClassTemplateSpecialization 0x15939d0 'basic_ios'
+| | |-TypedefDecl 0x1f227a0 <line:71:7, col:47> col:47 __istream_type 'basic_istream<char, std::char_traits<char>>':'std::basic_istream<char>'
+| | | `-TemplateSpecializationType 0x1f22720 'basic_istream<char, std::char_traits<char>>' sugar basic_istream
+| | |   |-TemplateArgument type 'char':'char'
+| | |   | `-SubstTemplateTypeParmType 0x1f21fb0 'char' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1478df0 'char'
+| | |   |-TemplateArgument type 'std::char_traits<char>':'std::char_traits<char>'
+| | |   | `-SubstTemplateTypeParmType 0x1f21ff0 'std::char_traits<char>' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | |   |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | |   `-RecordType 0x1596670 'std::basic_istream<char>'
+| | |     `-ClassTemplateSpecialization 0x1596570 'basic_istream'
+| | |-TypedefDecl 0x1f22930 <line:72:7, line:73:9> col:9 __num_get_type 'num_get<char, istreambuf_iterator<char, std::char_traits<char>>>':'std::num_get<char>'
+| | | `-TemplateSpecializationType 0x1f228b0 'num_get<char, istreambuf_iterator<char, std::char_traits<char>>>' sugar num_get
+| | |   |-TemplateArgument type 'char':'char'
+| | |   | `-SubstTemplateTypeParmType 0x1f21fb0 'char' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1478df0 'char'
+| | |   |-TemplateArgument type 'istreambuf_iterator<char, std::char_traits<char>>':'std::istreambuf_iterator<char>'
+| | |   | `-TemplateSpecializationType 0x1f22830 'istreambuf_iterator<char, std::char_traits<char>>' sugar istreambuf_iterator
+| | |   |   |-TemplateArgument type 'char':'char'
+| | |   |   | `-SubstTemplateTypeParmType 0x1f21fb0 'char' sugar
+| | |   |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   |   `-BuiltinType 0x1478df0 'char'
+| | |   |   |-TemplateArgument type 'std::char_traits<char>':'std::char_traits<char>'
+| | |   |   | `-SubstTemplateTypeParmType 0x1f21ff0 'std::char_traits<char>' sugar
+| | |   |   |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   |   |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   |   |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | |   |   |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | |   |   `-RecordType 0x1dbfc10 'std::istreambuf_iterator<char>'
+| | |   |     `-ClassTemplateSpecialization 0x1dbfb18 'istreambuf_iterator'
+| | |   `-RecordType 0x1ea59a0 'std::num_get<char>'
+| | |     `-ClassTemplateSpecialization 0x1ea58a0 'num_get'
+| | |-TypedefDecl 0x1f22a00 <line:74:7, col:38> col:38 __ctype_type 'ctype<char>':'std::ctype<char>'
+| | | `-TemplateSpecializationType 0x1f229a0 'ctype<char>' sugar ctype
+| | |   |-TemplateArgument type 'char':'char'
+| | |   | `-SubstTemplateTypeParmType 0x1f21fb0 'char' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1478df0 'char'
+| | |   `-RecordType 0x18f0f50 'std::ctype<char>'
+| | |     `-ClassTemplateSpecialization 0x1e122e8 'ctype'
+| | |-AccessSpecDecl 0x1f22a58 <line:76:5, col:14> col:5 protected
+| | |-FieldDecl 0x1f22a80 <line:82:7, col:20> col:20 _M_gcount 'std::streamsize':'long'
+| | |-AccessSpecDecl 0x1f22ad0 <line:84:5, col:11> col:5 public
+| | |-CXXConstructorDecl 0x1f22c50 <line:92:7, line:95:27> line:93:7 basic_istream 'void (std::basic_istream<char>::__streambuf_type *)'
+| | | `-ParmVarDecl 0x1f22b58 <col:21, col:39> col:39 __sb 'std::basic_istream<char>::__streambuf_type *'
+| | |-CXXDestructorDecl 0x1f22d38 <line:102:7, line:104:36> line:103:7 ~basic_istream 'void () throw()' virtual
+| | | `-Overrides: [ 0x1ed55a8 basic_ios::~basic_ios 'void () throw()' ]
+| | |-CXXRecordDecl 0x1f22e30 <line:107:7, col:13> col:13 class sentry definition
+| | | |-DefinitionData pass_in_registers standard_layout trivially_copyable has_user_declared_ctor can_const_default_init
+| | | | |-DefaultConstructor
+| | | | |-CopyConstructor simple trivial has_const_param needs_implicit implicit_has_const_param
+| | | | |-MoveConstructor exists simple trivial needs_implicit
+| | | | |-CopyAssignment simple trivial has_const_param needs_implicit implicit_has_const_param
+| | | | |-MoveAssignment exists simple trivial needs_implicit
+| | | | `-Destructor simple irrelevant trivial needs_implicit
+| | | |-CXXRecordDecl 0x1f7af58 <line:686:5, col:43> col:43 implicit class sentry
+| | | |-FieldDecl 0x1f7afe8 <line:689:7, col:12> col:12 _M_ok 'bool'
+| | | |-AccessSpecDecl 0x1f7b038 <line:691:5, col:11> col:5 public
+| | | |-TypedefDecl 0x1f7b098 <line:693:7, col:28> col:28 traits_type 'std::char_traits<char>':'std::char_traits<char>'
+| | | | `-SubstTemplateTypeParmType 0x1f7b060 'std::char_traits<char>' sugar
+| | | |   |-TemplateTypeParmType 0x1f329f0 '_Traits' dependent depth 0 index 1
+| | | |   | `-TemplateTypeParm 0x1f32998 '_Traits'
+| | | |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | | |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | | |-TypedefDecl 0x1f7b1c0 <line:694:7, col:50> col:50 __streambuf_type 'basic_streambuf<char, std::char_traits<char>>':'std::basic_streambuf<char>'
+| | | | `-TemplateSpecializationType 0x1f7b140 'basic_streambuf<char, std::char_traits<char>>' sugar basic_streambuf
+| | | |   |-TemplateArgument type 'char':'char'
+| | | |   | `-SubstTemplateTypeParmType 0x1f7b0f0 'char' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f32970 '_CharT' dependent depth 0 index 0
+| | | |   |   | `-TemplateTypeParm 0x1f32918 '_CharT'
+| | | |   |   `-BuiltinType 0x1478df0 'char'
+| | | |   |-TemplateArgument type 'std::char_traits<char>':'std::char_traits<char>'
+| | | |   | `-SubstTemplateTypeParmType 0x1f7b060 'std::char_traits<char>' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f329f0 '_Traits' dependent depth 0 index 1
+| | | |   |   | `-TemplateTypeParm 0x1f32998 '_Traits'
+| | | |   |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | | |   |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | | |   `-RecordType 0x1593d80 'std::basic_streambuf<char>'
+| | | |     `-ClassTemplateSpecialization 0x1593c80 'basic_streambuf'
+| | | |-TypedefDecl 0x1f7b2c0 <line:695:7, col:48> col:48 __istream_type 'basic_istream<char, std::char_traits<char>>':'std::basic_istream<char>'
+| | | | `-TemplateSpecializationType 0x1f7b240 'basic_istream<char, std::char_traits<char>>' sugar basic_istream
+| | | |   |-TemplateArgument type 'char':'char'
+| | | |   | `-SubstTemplateTypeParmType 0x1f7b0f0 'char' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f32970 '_CharT' dependent depth 0 index 0
+| | | |   |   | `-TemplateTypeParm 0x1f32918 '_CharT'
+| | | |   |   `-BuiltinType 0x1478df0 'char'
+| | | |   |-TemplateArgument type 'std::char_traits<char>':'std::char_traits<char>'
+| | | |   | `-SubstTemplateTypeParmType 0x1f7b060 'std::char_traits<char>' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f329f0 '_Traits' dependent depth 0 index 1
+| | | |   |   | `-TemplateTypeParm 0x1f32998 '_Traits'
+| | | |   |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | | |   |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | | |   `-RecordType 0x1596670 'std::basic_istream<char>'
+| | | |     `-ClassTemplateSpecialization 0x1596570 'basic_istream'
+| | | |-TypedefDecl 0x1f7b3f0 <line:696:7, col:54> col:54 __ctype_type 'typename __istream_type::__ctype_type':'std::ctype<char>'
+| | | | `-ElaboratedType 0x1f7b3a0 'typename __istream_type::__ctype_type' sugar
+| | | |   `-TypedefType 0x1f7b380 'std::basic_istream<char>::__ctype_type' sugar
+| | | |     |-Typedef 0x1f22a00 '__ctype_type'
+| | | |     `-TemplateSpecializationType 0x1f229a0 'ctype<char>' sugar ctype
+| | | |       |-TemplateArgument type 'char':'char'
+| | | |       | `-SubstTemplateTypeParmType 0x1f21fb0 'char' sugar
+| | | |       |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | | |       |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | | |       |   `-BuiltinType 0x1478df0 'char'
+| | | |       `-RecordType 0x18f0f50 'std::ctype<char>'
+| | | |         `-ClassTemplateSpecialization 0x1e122e8 'ctype'
+| | | |-TypedefDecl 0x1f7b4d0 <line:697:7, col:43> col:43 __int_type 'typename char_traits<char>::int_type':'int'
+| | | | `-ElaboratedType 0x1f7b480 'typename char_traits<char>::int_type' sugar
+| | | |   `-TypedefType 0x18a2330 'std::char_traits<char>::int_type' sugar
+| | | |     |-Typedef 0x18a0a78 'int_type'
+| | | |     `-BuiltinType 0x1478e50 'int'
+| | | |-CXXConstructorDecl 0x1f7b7d8 <line:721:7, line:722:75> col:7 sentry 'void (basic_istream<char, std::char_traits<char>> &, bool)'
+| | | | |-ParmVarDecl 0x1f7b608 <col:14, col:46> col:46 __is 'basic_istream<char, std::char_traits<char>> &'
+| | | | `-ParmVarDecl 0x1f7b670 <col:52, col:70> col:57 __noskipws 'bool'
+| | | `-CXXConversionDecl 0x1f7b8a0 <line:732:7, line:735:23> line:734:7 operator bool 'bool () const'
+| | |-FriendDecl 0x1f22f40 <line:108:7, col:20> col:14 'class sentry':'std::basic_istream<char>::sentry'
+| | |-CXXMethodDecl 0x1f23258 <line:119:7, line:121:29> line:120:7 operator>> 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::__istream_type &(*)(std::basic_istream<char>::__istream_type &))'
+| | | `-ParmVarDecl 0x1f23160 <col:18, col:57> col:36 __pf 'std::basic_istream<char>::__istream_type &(*)(std::basic_istream<char>::__istream_type &)'
+| | |-CXXMethodDecl 0x1f23588 <line:123:7, line:128:7> line:124:7 operator>> 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::__ios_type &(*)(std::basic_istream<char>::__ios_type &))'
+| | | `-ParmVarDecl 0x1f23490 <col:18, col:49> col:32 __pf 'std::basic_istream<char>::__ios_type &(*)(std::basic_istream<char>::__ios_type &)'
+| | |-CXXMethodDecl 0x1f23748 <line:130:7, line:135:7> line:131:7 operator>> 'std::basic_istream<char>::__istream_type &(std::ios_base &(*)(std::ios_base &))'
+| | | `-ParmVarDecl 0x1f23650 <col:18, col:45> col:30 __pf 'std::ios_base &(*)(std::ios_base &)'
+| | |-CXXMethodDecl 0x1f23908 <line:167:7, line:169:33> line:168:7 operator>> 'std::basic_istream<char>::__istream_type &(bool &)'
+| | | `-ParmVarDecl 0x1f23810 <col:18, col:24> col:24 __n 'bool &'
+| | |-CXXMethodDecl 0x1f23ac8 <line:171:7, line:172:28> col:7 operator>> 'std::basic_istream<char>::__istream_type &(short &)'
+| | | `-ParmVarDecl 0x1f239d0 <col:18, col:25> col:25 __n 'short &'
+| | |-CXXMethodDecl 0x1f23c88 <line:174:7, line:176:33> line:175:7 operator>> 'std::basic_istream<char>::__istream_type &(unsigned short &)'
+| | | `-ParmVarDecl 0x1f23b90 <col:18, col:34> col:34 __n 'unsigned short &'
+| | |-CXXMethodDecl 0x1f23e48 <line:178:7, line:179:26> col:7 used operator>> 'std::basic_istream<char>::__istream_type &(int &)'
+| | | `-ParmVarDecl 0x1f23d50 <col:18, col:23> col:23 __n 'int &'
+| | |-CXXMethodDecl 0x1f24008 <line:181:7, line:183:33> line:182:7 operator>> 'std::basic_istream<char>::__istream_type &(unsigned int &)'
+| | | `-ParmVarDecl 0x1f23f10 <col:18, col:32> col:32 __n 'unsigned int &'
+| | |-CXXMethodDecl 0x1f241c8 <line:185:7, line:187:33> line:186:7 operator>> 'std::basic_istream<char>::__istream_type &(long &)'
+| | | `-ParmVarDecl 0x1f240d0 <col:18, col:24> col:24 __n 'long &'
+| | |-CXXMethodDecl 0x1f24388 <line:189:7, line:191:33> line:190:7 operator>> 'std::basic_istream<char>::__istream_type &(unsigned long &)'
+| | | `-ParmVarDecl 0x1f24290 <col:18, col:33> col:33 __n 'unsigned long &'
+| | |-CXXMethodDecl 0x1f24548 <line:194:7, line:196:33> line:195:7 operator>> 'std::basic_istream<char>::__istream_type &(long long &)'
+| | | `-ParmVarDecl 0x1f24450 <col:18, col:29> col:29 __n 'long long &'
+| | |-CXXMethodDecl 0x1f24708 <line:198:7, line:200:33> line:199:7 operator>> 'std::basic_istream<char>::__istream_type &(unsigned long long &)'
+| | | `-ParmVarDecl 0x1f24610 <col:18, col:38> col:38 __n 'unsigned long long &'
+| | |-CXXMethodDecl 0x1f248c8 <line:213:7, line:215:33> line:214:7 operator>> 'std::basic_istream<char>::__istream_type &(float &)'
+| | | `-ParmVarDecl 0x1f247d0 <col:18, col:25> col:25 __f 'float &'
+| | |-CXXMethodDecl 0x1f24a88 <line:217:7, line:219:33> line:218:7 operator>> 'std::basic_istream<char>::__istream_type &(double &)'
+| | | `-ParmVarDecl 0x1f24990 <col:18, col:26> col:26 __f 'double &'
+| | |-CXXMethodDecl 0x1f24c48 <line:221:7, line:223:33> line:222:7 operator>> 'std::basic_istream<char>::__istream_type &(long double &)'
+| | | `-ParmVarDecl 0x1f24b50 <col:18, col:31> col:31 __f 'long double &'
+| | |-CXXMethodDecl 0x1f24e08 <line:234:7, line:236:33> line:235:7 operator>> 'std::basic_istream<char>::__istream_type &(void *&)'
+| | | `-ParmVarDecl 0x1f24d10 <col:18, col:25> col:25 __p 'void *&'
+| | |-CXXMethodDecl 0x1f24fd8 <line:258:7, line:259:40> col:7 operator>> 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::__streambuf_type *)'
+| | | `-ParmVarDecl 0x1f24ee0 <col:18, col:36> col:36 __sb 'std::basic_istream<char>::__streambuf_type *'
+| | |-CXXMethodDecl 0x1f250a0 <line:268:7, line:270:27> line:269:7 gcount 'std::streamsize () const'
+| | |-CXXMethodDecl 0x1f251b8 <line:301:7, line:302:11> col:7 get 'std::basic_istream<char>::int_type ()'
+| | |-CXXMethodDecl 0x1f253b8 <line:315:7, line:316:25> col:7 get 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type &)'
+| | | `-ParmVarDecl 0x1f252c8 <col:11, col:22> col:22 __c 'std::basic_istream<char>::char_type &'
+| | |-CXXMethodDecl 0x1f256b8 <line:342:7, line:343:60> col:7 get 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type *, std::streamsize, std::basic_istream<char>::char_type)'
+| | | |-ParmVarDecl 0x1f254b8 <col:11, col:22> col:22 __s 'std::basic_istream<char>::char_type *'
+| | | |-ParmVarDecl 0x1f25520 <col:27, col:38> col:38 __n 'std::streamsize':'long'
+| | | `-ParmVarDecl 0x1f25598 <col:43, col:53> col:53 __delim 'std::basic_istream<char>::char_type':'char'
+| | |-CXXMethodDecl 0x1f25918 <line:353:7, line:355:56> line:354:7 get 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f257a0 <col:11, col:22> col:22 __s 'std::basic_istream<char>::char_type *'
+| | | `-ParmVarDecl 0x1f25808 <col:27, col:38> col:38 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f25bb8 <line:376:7, line:377:52> col:7 get 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::__streambuf_type &, std::basic_istream<char>::char_type)'
+| | | |-ParmVarDecl 0x1f25a28 <col:11, col:29> col:29 __sb 'std::basic_istream<char>::__streambuf_type &'
+| | | `-ParmVarDecl 0x1f25aa0 <col:35, col:45> col:45 __delim 'std::basic_istream<char>::char_type':'char'
+| | |-CXXMethodDecl 0x1f25d88 <line:386:7, line:388:52> line:387:7 get 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::__streambuf_type &)'
+| | | `-ParmVarDecl 0x1f25c98 <col:11, col:29> col:29 __sb 'std::basic_istream<char>::__streambuf_type &'
+| | |-CXXMethodDecl 0x1f25fe0 <line:415:7, line:416:64> line:648:5 getline 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type *, std::streamsize, std::basic_istream<char>::char_type)'
+| | | |-ParmVarDecl 0x1f25e60 <line:416:15, col:26> col:26 __s 'std::basic_istream<char>::char_type *'
+| | | |-ParmVarDecl 0x1f25ec8 <col:31, col:42> col:42 __n 'std::streamsize':'long'
+| | | `-ParmVarDecl 0x1f25f40 <col:47, col:57> col:57 __delim 'std::basic_istream<char>::char_type':'char'
+| | |-CXXMethodDecl 0x1f261b8 <line:426:7, line:428:60> line:427:7 getline 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f260b8 <col:15, col:26> col:26 __s 'std::basic_istream<char>::char_type *'
+| | | `-ParmVarDecl 0x1f26120 <col:31, col:42> col:42 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f26418 <line:450:7, line:451:46> line:658:5 ignore 'std::basic_istream<char>::__istream_type &(std::streamsize, std::basic_istream<char>::int_type)'
+| | | |-ParmVarDecl 0x1f26288 <line:451:14, col:25> col:25 __n 'std::streamsize':'long'
+| | | `-ParmVarDecl 0x1f26300 <col:30, col:39> col:39 __delim 'std::basic_istream<char>::int_type':'int'
+| | |-CXXMethodDecl 0x1f265c8 <line:453:7, line:454:28> line:653:5 ignore 'std::basic_istream<char>::__istream_type &(std::streamsize)'
+| | | `-ParmVarDecl 0x1f264d8 <line:454:14, col:25> col:25 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f26708 <line:456:7, line:457:14> col:7 ignore 'std::basic_istream<char>::__istream_type &()'
+| | |-CXXMethodDecl 0x1f267e8 <line:467:7, line:468:12> col:7 peek 'std::basic_istream<char>::int_type ()'
+| | |-CXXMethodDecl 0x1f269a8 <line:485:7, line:486:42> col:7 read 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f268a8 <col:12, col:23> col:23 __s 'std::basic_istream<char>::char_type *'
+| | | `-ParmVarDecl 0x1f26910 <col:28, col:39> col:39 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f26bb8 <line:504:7, line:505:46> col:7 readsome 'std::streamsize (std::basic_istream<char>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f26a78 <col:16, col:27> col:27 __s 'std::basic_istream<char>::char_type *'
+| | | `-ParmVarDecl 0x1f26ae0 <col:32, col:43> col:43 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f29798 <line:521:7, line:522:28> col:7 putback 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::char_type)'
+| | | `-ParmVarDecl 0x1f296a0 <col:15, col:25> col:25 __c 'std::basic_istream<char>::char_type':'char'
+| | |-CXXMethodDecl 0x1f29870 <line:537:7, line:538:13> col:7 unget 'std::basic_istream<char>::__istream_type &()'
+| | |-CXXMethodDecl 0x1f29920 <line:555:7, line:556:12> col:7 sync 'int ()'
+| | |-CXXMethodDecl 0x1f29a38 <line:570:7, line:571:13> col:7 tellg 'std::basic_istream<char>::pos_type ()'
+| | |-CXXMethodDecl 0x1f29be8 <line:585:7, line:586:21> col:7 seekg 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::pos_type)'
+| | | `-ParmVarDecl 0x1f29af8 <col:13> col:21 'std::basic_istream<char>::pos_type':'std::fpos<__mbstate_t>'
+| | |-CXXMethodDecl 0x1f29e48 <line:601:7, line:602:40> col:7 seekg 'std::basic_istream<char>::__istream_type &(std::basic_istream<char>::off_type, ios_base::seekdir)'
+| | | |-ParmVarDecl 0x1f29cd0 <col:13> col:21 'std::basic_istream<char>::off_type':'long'
+| | | `-ParmVarDecl 0x1f29d38 <col:23, col:33> col:40 'ios_base::seekdir':'std::_Ios_Seekdir'
+| | |-AccessSpecDecl 0x1f29f18 <line:605:5, col:14> col:5 protected
+| | |-CXXConstructorDecl 0x1f29f60 <line:606:7, line:608:24> line:606:7 basic_istream 'void ()'
+| | |-CXXConstructorDecl 0x1f2a148 <line:611:7, col:50> col:7 basic_istream 'void (const std::basic_istream<char> &)' delete
+| | | `-ParmVarDecl 0x1f2a068 <col:21, col:40> col:41 'const std::basic_istream<char> &'
+| | |-CXXConstructorDecl 0x1f2a338 <line:613:7, line:618:7> line:613:7 basic_istream 'void (std::basic_istream<char> &&)'
+| | | `-ParmVarDecl 0x1f2a258 <col:21, col:37> col:37 __rhs 'std::basic_istream<char> &&'
+| | |-CXXMethodDecl 0x1f2a4d8 <line:622:7, col:61> col:22 operator= 'std::basic_istream<char> &(const std::basic_istream<char> &)' delete
+| | | `-ParmVarDecl 0x1f2a418 <col:32, col:51> col:52 'const std::basic_istream<char> &'
+| | |-CXXMethodDecl 0x1f2a668 <line:624:7, line:629:7> line:625:7 operator= 'std::basic_istream<char> &(std::basic_istream<char> &&)'
+| | | `-ParmVarDecl 0x1f2a5a0 <col:17, col:33> col:33 __rhs 'std::basic_istream<char> &&'
+| | |-CXXMethodDecl 0x1f2a808 <line:631:7, line:636:7> line:632:7 swap 'void (std::basic_istream<char> &)'
+| | | `-ParmVarDecl 0x1f2a740 <col:12, col:27> col:27 __rhs 'std::basic_istream<char> &'
+| | `-FunctionTemplateDecl 0x1f2ab18 <line:639:7, line:641:25> col:2 _M_extract
+| |   |-TemplateTypeParmDecl 0x1f2a8c0 <line:639:16, col:25> col:25 typename depth 0 index 0 _ValueT
+| |   |-CXXMethodDecl 0x1f2aa78 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(_ValueT &)'
+| |   | `-ParmVarDecl 0x1f2a988 <col:13, col:22> col:22 __v '_ValueT &'
+| |   |-CXXMethodDecl 0x1f7d768 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(unsigned short &)'
+| |   | |-TemplateArgument type 'unsigned short'
+| |   | | `-BuiltinType 0x1478ed0 'unsigned short'
+| |   | `-ParmVarDecl 0x1f7d6a8 <col:13, col:22> col:22 __v 'unsigned short &'
+| |   |-CXXMethodDecl 0x1f7dab8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(unsigned int &)'
+| |   | |-TemplateArgument type 'unsigned int'
+| |   | | `-BuiltinType 0x1478ef0 'unsigned int'
+| |   | `-ParmVarDecl 0x1f7d9f8 <col:13, col:22> col:22 __v 'unsigned int &'
+| |   |-CXXMethodDecl 0x1f7de08 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(long &)'
+| |   | |-TemplateArgument type 'long'
+| |   | | `-BuiltinType 0x1478e70 'long'
+| |   | `-ParmVarDecl 0x1f7dd48 <col:13, col:22> col:22 __v 'long &'
+| |   |-CXXMethodDecl 0x1f7e158 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(unsigned long &)'
+| |   | |-TemplateArgument type 'unsigned long'
+| |   | | `-BuiltinType 0x1478f10 'unsigned long'
+| |   | `-ParmVarDecl 0x1f7e098 <col:13, col:22> col:22 __v 'unsigned long &'
+| |   |-CXXMethodDecl 0x1f7e498 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(bool &)'
+| |   | |-TemplateArgument type 'bool'
+| |   | | `-BuiltinType 0x1478dd0 'bool'
+| |   | `-ParmVarDecl 0x1f7e3d8 <col:13, col:22> col:22 __v 'bool &'
+| |   |-CXXMethodDecl 0x1f7e7e8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(long long &)'
+| |   | |-TemplateArgument type 'long long'
+| |   | | `-BuiltinType 0x1478e90 'long long'
+| |   | `-ParmVarDecl 0x1f7e728 <col:13, col:22> col:22 __v 'long long &'
+| |   |-CXXMethodDecl 0x1f7eb38 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(unsigned long long &)'
+| |   | |-TemplateArgument type 'unsigned long long'
+| |   | | `-BuiltinType 0x1478f30 'unsigned long long'
+| |   | `-ParmVarDecl 0x1f7ea78 <col:13, col:22> col:22 __v 'unsigned long long &'
+| |   |-CXXMethodDecl 0x1f7ee88 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(float &)'
+| |   | |-TemplateArgument type 'float'
+| |   | | `-BuiltinType 0x1478f50 'float'
+| |   | `-ParmVarDecl 0x1f7edc8 <col:13, col:22> col:22 __v 'float &'
+| |   |-CXXMethodDecl 0x1f7f1d8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(double &)'
+| |   | |-TemplateArgument type 'double'
+| |   | | `-BuiltinType 0x1478f70 'double'
+| |   | `-ParmVarDecl 0x1f7f118 <col:13, col:22> col:22 __v 'double &'
+| |   |-CXXMethodDecl 0x1f7f528 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(long double &)'
+| |   | |-TemplateArgument type 'long double'
+| |   | | `-BuiltinType 0x1478f90 'long double'
+| |   | `-ParmVarDecl 0x1f7f468 <col:13, col:22> col:22 __v 'long double &'
+| |   `-CXXMethodDecl 0x1f7f878 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<char>::__istream_type &(void *&)'
+| |     |-TemplateArgument type 'void *'
+| |     | `-PointerType 0x1479510 'void *'
+| |     |   `-BuiltinType 0x1478db0 'void'
+| |     `-ParmVarDecl 0x1f7f7b8 <col:13, col:22> col:22 __v 'void *&'
+| |-ClassTemplateSpecializationDecl 0x1596ad0 parent 0x1589e48 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc:1097:3, col:44> col:25 class basic_iostream definition
+| | |-DefinitionData polymorphic has_user_declared_ctor has_mutable_fields can_const_default_init
+| | | |-DefaultConstructor exists non_trivial user_provided
+| | | |-CopyConstructor non_trivial user_declared has_const_param needs_overload_resolution implicit_has_const_param
+| | | |-MoveConstructor exists non_trivial user_declared needs_overload_resolution
+| | | |-CopyAssignment non_trivial has_const_param user_declared needs_overload_resolution implicit_has_const_param
+| | | |-MoveAssignment exists non_trivial user_declared needs_overload_resolution
+| | | `-Destructor non_trivial user_declared needs_overload_resolution
+| | |-public 'basic_istream<char, std::char_traits<char>>':'std::basic_istream<char>'
+| | |-public 'basic_ostream<char, std::char_traits<char>>':'std::basic_ostream<char>'
+| | |-TemplateArgument type 'char'
+| | | `-BuiltinType 0x1478df0 'char'
+| | |-TemplateArgument type 'std::char_traits<char>'
+| | | `-RecordType 0x1538410 'std::char_traits<char>'
+| | |   `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | |-CXXRecordDecl 0x1f7fd10 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/istream:890:5, col:11> col:11 implicit class basic_iostream
+| | |-AccessSpecDecl 0x1f7fda0 <line:894:5, col:11> col:5 public
+| | |-TypedefDecl 0x1f7fdd8 <line:898:7, col:27> col:27 char_type 'char':'char'
+| | | `-SubstTemplateTypeParmType 0x1f7faf0 'char' sugar
+| | |   |-TemplateTypeParmType 0x1f38bb0 '_CharT' dependent depth 0 index 0
+| | |   | `-TemplateTypeParm 0x1f38b58 '_CharT'
+| | |   `-BuiltinType 0x1478df0 'char'
+| | |-TypedefDecl 0x1f7fec0 <line:899:7, col:44> col:44 int_type 'typename char_traits<char>::int_type':'int'
+| | | `-ElaboratedType 0x1f7fe70 'typename char_traits<char>::int_type' sugar
+| | |   `-TypedefType 0x18a2330 'std::char_traits<char>::int_type' sugar
+| | |     |-Typedef 0x18a0a78 'int_type'
+| | |     `-BuiltinType 0x1478e50 'int'
+| | |-TypedefDecl 0x1f7ff90 <line:900:7, col:44> col:44 pos_type 'typename char_traits<char>::pos_type':'std::fpos<__mbstate_t>'
+| | | `-ElaboratedType 0x1f7ff40 'typename char_traits<char>::pos_type' sugar
+| | |   `-TypedefType 0x1dbf490 'std::char_traits<char>::pos_type' sugar
+| | |     |-Typedef 0x18a0ae0 'pos_type'
+| | |     `-TypedefType 0x1897580 'std::streampos' sugar
+| | |       |-Typedef 0x1589af0 'streampos'
+| | |       `-TemplateSpecializationType 0x1589a70 'fpos<mbstate_t>' sugar fpos
+| | |         |-TemplateArgument type 'mbstate_t':'__mbstate_t'
+| | |         | `-UsingType 0x1589930 'mbstate_t' sugar
+| | |         |   |-UsingShadow 0x157d958 'mbstate_t'
+| | |         |   `-TypedefType 0x156b5f0 'mbstate_t' sugar
+| | |         |     |-Typedef 0x1557ab0 'mbstate_t'
+| | |         |     `-TypedefType 0x153c430 '__mbstate_t' sugar
+| | |         |       |-Typedef 0x153c3b8 '__mbstate_t'
+| | |         |       `-ElaboratedType 0x153c360 'struct __mbstate_t' sugar
+| | |         |         `-RecordType 0x153bf10 '__mbstate_t'
+| | |         |           `-CXXRecord 0x153be80 ''
+| | |         `-RecordType 0x1589a50 'std::fpos<__mbstate_t>'
+| | |           `-ClassTemplateSpecialization 0x1589968 'fpos'
+| | |-TypedefDecl 0x1f80060 <line:901:7, col:44> col:44 off_type 'typename char_traits<char>::off_type':'long'
+| | | `-ElaboratedType 0x1f80010 'typename char_traits<char>::off_type' sugar
+| | |   `-TypedefType 0x1dbf580 'std::char_traits<char>::off_type' sugar
+| | |     |-Typedef 0x18a0b48 'off_type'
+| | |     `-TypedefType 0x15857e0 'std::streamoff' sugar
+| | |       |-Typedef 0x1584e48 'streamoff'
+| | |       `-BuiltinType 0x1478e70 'long'
+| | |-TypedefDecl 0x1f800c8 <line:902:7, col:28> col:28 traits_type 'std::char_traits<char>':'std::char_traits<char>'
+| | | `-SubstTemplateTypeParmType 0x1f7fb30 'std::char_traits<char>' sugar
+| | |   |-TemplateTypeParmType 0x1f38c30 '_Traits' dependent depth 0 index 1
+| | |   | `-TemplateTypeParm 0x1f38bd8 '_Traits'
+| | |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | |-TypedefDecl 0x1f801c0 <line:905:7, col:47> col:47 __istream_type 'basic_istream<char, std::char_traits<char>>':'std::basic_istream<char>'
+| | | `-TemplateSpecializationType 0x1f80140 'basic_istream<char, std::char_traits<char>>' sugar basic_istream
+| | |   |-TemplateArgument type 'char':'char'
+| | |   | `-SubstTemplateTypeParmType 0x1f7faf0 'char' sugar
+| | |   |   |-TemplateTypeParmType 0x1f38bb0 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f38b58 '_CharT'
+| | |   |   `-BuiltinType 0x1478df0 'char'
+| | |   |-TemplateArgument type 'std::char_traits<char>':'std::char_traits<char>'
+| | |   | `-SubstTemplateTypeParmType 0x1f7fb30 'std::char_traits<char>' sugar
+| | |   |   |-TemplateTypeParmType 0x1f38c30 '_Traits' dependent depth 0 index 1
+| | |   |   | `-TemplateTypeParm 0x1f38bd8 '_Traits'
+| | |   |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | |   |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | |   `-RecordType 0x1596670 'std::basic_istream<char>'
+| | |     `-ClassTemplateSpecialization 0x1596570 'basic_istream'
+| | |-TypedefDecl 0x1f802c0 <line:906:7, col:47> col:47 __ostream_type 'basic_ostream<char, std::char_traits<char>>':'std::basic_ostream<char>'
+| | | `-TemplateSpecializationType 0x1f80240 'basic_ostream<char, std::char_traits<char>>' sugar basic_ostream
+| | |   |-TemplateArgument type 'char':'char'
+| | |   | `-SubstTemplateTypeParmType 0x1f7faf0 'char' sugar
+| | |   |   |-TemplateTypeParmType 0x1f38bb0 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f38b58 '_CharT'
+| | |   |   `-BuiltinType 0x1478df0 'char'
+| | |   |-TemplateArgument type 'std::char_traits<char>':'std::char_traits<char>'
+| | |   | `-SubstTemplateTypeParmType 0x1f7fb30 'std::char_traits<char>' sugar
+| | |   |   |-TemplateTypeParmType 0x1f38c30 '_Traits' dependent depth 0 index 1
+| | |   |   | `-TemplateTypeParm 0x1f38bd8 '_Traits'
+| | |   |   `-RecordType 0x1538410 'std::char_traits<char>'
+| | |   |     `-ClassTemplateSpecialization 0x18a0780 'char_traits'
+| | |   `-RecordType 0x1596920 'std::basic_ostream<char>'
+| | |     `-ClassTemplateSpecialization 0x1596820 'basic_ostream'
+| | |-CXXConstructorDecl 0x1f804f0 <line:914:7, line:916:54> line:915:7 basic_iostream 'void (basic_streambuf<char, std::char_traits<char>> *)'
+| | | `-ParmVarDecl 0x1f803f8 <col:22, col:56> col:56 __sb 'basic_streambuf<char, std::char_traits<char>> *'
+| | |-CXXDestructorDecl 0x1f805d8 <line:921:7, line:922:27> col:7 ~basic_iostream 'void () throw()' virtual
+| | | `-Overrides: [ 0x1f22d38 basic_istream::~basic_istream 'void () throw()', 0x1f00028 basic_ostream::~basic_ostream 'void () throw()' ]
+| | |-AccessSpecDecl 0x1f806d0 <line:924:5, col:14> col:5 protected
+| | |-CXXConstructorDecl 0x1f80718 <line:925:7, line:926:46> line:925:7 basic_iostream 'void ()'
+| | |-CXXConstructorDecl 0x1f808f8 <line:929:7, col:52> col:7 basic_iostream 'void (const std::basic_iostream<char> &)' delete
+| | | `-ParmVarDecl 0x1f80818 <col:22, col:42> col:43 'const std::basic_iostream<char> &'
+| | |-CXXConstructorDecl 0x1f80ae8 <line:931:7, line:933:9> line:931:7 basic_iostream 'void (std::basic_iostream<char> &&)'
+| | | `-ParmVarDecl 0x1f80a08 <col:22, col:39> col:39 __rhs 'std::basic_iostream<char> &&'
+| | |-CXXMethodDecl 0x1f80c88 <line:937:7, col:63> col:23 operator= 'std::basic_iostream<char> &(const std::basic_iostream<char> &)' delete
+| | | `-ParmVarDecl 0x1f80bc8 <col:33, col:53> col:54 'const std::basic_iostream<char> &'
+| | |-CXXMethodDecl 0x1f80e18 <line:939:7, line:944:7> line:940:7 operator= 'std::basic_iostream<char> &(std::basic_iostream<char> &&)'
+| | | `-ParmVarDecl 0x1f80d50 <col:17, col:34> col:34 __rhs 'std::basic_iostream<char> &&'
+| | `-CXXMethodDecl 0x1f80f80 <line:946:7, line:948:38> line:947:7 swap 'void (std::basic_iostream<char> &)'
+| |   `-ParmVarDecl 0x1f80ef0 <col:12, col:28> col:28 __rhs 'std::basic_iostream<char> &'
+| |-ClassTemplateSpecializationDecl 0x1598b00 parent 0x1589e48 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc:1100:3, col:46> col:25 class basic_istream definition
+| | |-DefinitionData polymorphic has_user_declared_ctor has_mutable_fields can_const_default_init
+| | | |-DefaultConstructor exists non_trivial user_provided
+| | | |-CopyConstructor non_trivial user_declared has_const_param needs_overload_resolution implicit_has_const_param
+| | | |-MoveConstructor exists non_trivial user_declared needs_overload_resolution
+| | | |-CopyAssignment non_trivial has_const_param user_declared needs_overload_resolution implicit_has_const_param
+| | | |-MoveAssignment exists non_trivial user_declared needs_overload_resolution
+| | | `-Destructor non_trivial user_declared needs_overload_resolution
+| | |-virtual public 'basic_ios<wchar_t, std::char_traits<wchar_t>>':'std::basic_ios<wchar_t>'
+| | |-TemplateArgument type 'wchar_t'
+| | | `-BuiltinType 0x1479350 'wchar_t'
+| | |-TemplateArgument type 'std::char_traits<wchar_t>'
+| | | `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | |   `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | |-CXXRecordDecl 0x1f2bbb8 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/istream:58:5, col:11> col:11 implicit class basic_istream
+| | |-AccessSpecDecl 0x1f2bc48 <line:60:5, col:11> col:5 public
+| | |-TypedefDecl 0x1f2bc80 <line:62:7, col:27> col:27 referenced char_type 'wchar_t':'wchar_t'
+| | | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   `-BuiltinType 0x1479350 'wchar_t'
+| | |-TypedefDecl 0x1f2bd60 <line:63:7, col:44> col:44 referenced int_type 'typename char_traits<wchar_t>::int_type':'unsigned int'
+| | | `-ElaboratedType 0x1f2bd10 'typename char_traits<wchar_t>::int_type' sugar
+| | |   `-TypedefType 0x16ee5b0 'std::char_traits<wchar_t>::int_type' sugar
+| | |     |-Typedef 0x16ecd58 'int_type'
+| | |     `-UsingType 0x16ecd20 'wint_t' sugar
+| | |       |-UsingShadow 0x157ebd0 'wint_t'
+| | |       `-TypedefType 0x156b1e0 'wint_t' sugar
+| | |         |-Typedef 0x153be28 'wint_t'
+| | |         `-BuiltinType 0x1478ef0 'unsigned int'
+| | |-TypedefDecl 0x1f2be30 <line:64:7, col:44> col:44 pos_type 'typename char_traits<wchar_t>::pos_type':'std::fpos<__mbstate_t>'
+| | | `-ElaboratedType 0x1f2bde0 'typename char_traits<wchar_t>::pos_type' sugar
+| | |   `-TypedefType 0x1dc8640 'std::char_traits<wchar_t>::pos_type' sugar
+| | |     |-Typedef 0x16ece50 'pos_type'
+| | |     `-TypedefType 0x16ece20 'std::wstreampos' sugar
+| | |       |-Typedef 0x1589be0 'wstreampos'
+| | |       `-TemplateSpecializationType 0x1589b60 'fpos<mbstate_t>' sugar fpos
+| | |         |-TemplateArgument type 'mbstate_t':'__mbstate_t'
+| | |         | `-UsingType 0x1589930 'mbstate_t' sugar
+| | |         |   |-UsingShadow 0x157d958 'mbstate_t'
+| | |         |   `-TypedefType 0x156b5f0 'mbstate_t' sugar
+| | |         |     |-Typedef 0x1557ab0 'mbstate_t'
+| | |         |     `-TypedefType 0x153c430 '__mbstate_t' sugar
+| | |         |       |-Typedef 0x153c3b8 '__mbstate_t'
+| | |         |       `-ElaboratedType 0x153c360 'struct __mbstate_t' sugar
+| | |         |         `-RecordType 0x153bf10 '__mbstate_t'
+| | |         |           `-CXXRecord 0x153be80 ''
+| | |         `-RecordType 0x1589a50 'std::fpos<__mbstate_t>'
+| | |           `-ClassTemplateSpecialization 0x1589968 'fpos'
+| | |-TypedefDecl 0x1f2bf00 <line:65:7, col:44> col:44 off_type 'typename char_traits<wchar_t>::off_type':'long'
+| | | `-ElaboratedType 0x1f2beb0 'typename char_traits<wchar_t>::off_type' sugar
+| | |   `-TypedefType 0x1dc8730 'std::char_traits<wchar_t>::off_type' sugar
+| | |     |-Typedef 0x16ecdc0 'off_type'
+| | |     `-TypedefType 0x15857e0 'std::streamoff' sugar
+| | |       |-Typedef 0x1584e48 'streamoff'
+| | |       `-BuiltinType 0x1478e70 'long'
+| | |-TypedefDecl 0x1f2bf68 <line:66:7, col:28> col:28 traits_type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | | `-SubstTemplateTypeParmType 0x1f2bab0 'std::char_traits<wchar_t>' sugar
+| | |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | |-TypedefDecl 0x1f2c060 <line:69:7, col:50> col:50 __streambuf_type 'basic_streambuf<wchar_t, std::char_traits<wchar_t>>':'std::basic_streambuf<wchar_t>'
+| | | `-TemplateSpecializationType 0x1f2bfe0 'basic_streambuf<wchar_t, std::char_traits<wchar_t>>' sugar basic_streambuf
+| | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | |   | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | |   | `-SubstTemplateTypeParmType 0x1f2bab0 'std::char_traits<wchar_t>' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | |   `-RecordType 0x1598950 'std::basic_streambuf<wchar_t>'
+| | |     `-ClassTemplateSpecialization 0x1598850 'basic_streambuf'
+| | |-TypedefDecl 0x1f2c160 <line:70:7, col:43> col:43 __ios_type 'basic_ios<wchar_t, std::char_traits<wchar_t>>':'std::basic_ios<wchar_t>'
+| | | `-TemplateSpecializationType 0x1f2c0e0 'basic_ios<wchar_t, std::char_traits<wchar_t>>' sugar basic_ios
+| | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | |   | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | |   | `-SubstTemplateTypeParmType 0x1f2bab0 'std::char_traits<wchar_t>' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | |   `-RecordType 0x15986a0 'std::basic_ios<wchar_t>'
+| | |     `-ClassTemplateSpecialization 0x15985a0 'basic_ios'
+| | |-TypedefDecl 0x1f2c260 <line:71:7, col:47> col:47 __istream_type 'basic_istream<wchar_t, std::char_traits<wchar_t>>':'std::basic_istream<wchar_t>'
+| | | `-TemplateSpecializationType 0x1f2c1e0 'basic_istream<wchar_t, std::char_traits<wchar_t>>' sugar basic_istream
+| | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | |   | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | |   | `-SubstTemplateTypeParmType 0x1f2bab0 'std::char_traits<wchar_t>' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | |   `-RecordType 0x1598c00 'std::basic_istream<wchar_t>'
+| | |     `-ClassTemplateSpecialization 0x1598b00 'basic_istream'
+| | |-TypedefDecl 0x1f2c3f0 <line:72:7, line:73:9> col:9 __num_get_type 'num_get<wchar_t, istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>':'std::num_get<wchar_t>'
+| | | `-TemplateSpecializationType 0x1f2c370 'num_get<wchar_t, istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>' sugar num_get
+| | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | |   | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | |   |-TemplateArgument type 'istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>':'std::istreambuf_iterator<wchar_t>'
+| | |   | `-TemplateSpecializationType 0x1f2c2f0 'istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>' sugar istreambuf_iterator
+| | |   |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | |   |   | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | |   |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | |   |   | `-SubstTemplateTypeParmType 0x1f2bab0 'std::char_traits<wchar_t>' sugar
+| | |   |   |   |-TemplateTypeParmType 0x1f17400 '_Traits' dependent depth 0 index 1
+| | |   |   |   | `-TemplateTypeParm 0x1f173a8 '_Traits'
+| | |   |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | |   |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | |   |   `-RecordType 0x1dc8dc0 'std::istreambuf_iterator<wchar_t>'
+| | |   |     `-ClassTemplateSpecialization 0x1dc8cc8 'istreambuf_iterator'
+| | |   `-RecordType 0x1eb6040 'std::num_get<wchar_t>'
+| | |     `-ClassTemplateSpecialization 0x1eb5f40 'num_get'
+| | |-TypedefDecl 0x1f2c4c0 <line:74:7, col:38> col:38 __ctype_type 'ctype<wchar_t>':'std::ctype<wchar_t>'
+| | | `-TemplateSpecializationType 0x1f2c460 'ctype<wchar_t>' sugar ctype
+| | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | |   | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | |   |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | |   |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | |   `-RecordType 0x18f1110 'std::ctype<wchar_t>'
+| | |     `-ClassTemplateSpecialization 0x1e1d0a8 'ctype'
+| | |-AccessSpecDecl 0x1f2c518 <line:76:5, col:14> col:5 protected
+| | |-FieldDecl 0x1f2c540 <line:82:7, col:20> col:20 _M_gcount 'std::streamsize':'long'
+| | |-AccessSpecDecl 0x1f2c590 <line:84:5, col:11> col:5 public
+| | |-CXXConstructorDecl 0x1f2c710 <line:92:7, line:95:27> line:93:7 basic_istream 'void (std::basic_istream<wchar_t>::__streambuf_type *)'
+| | | `-ParmVarDecl 0x1f2c618 <col:21, col:39> col:39 __sb 'std::basic_istream<wchar_t>::__streambuf_type *'
+| | |-CXXDestructorDecl 0x1f2c7f8 <line:102:7, line:104:36> line:103:7 ~basic_istream 'void () throw()' virtual
+| | | `-Overrides: [ 0x1ed9778 basic_ios::~basic_ios 'void () throw()' ]
+| | |-CXXRecordDecl 0x1f2c8f0 <line:107:7, col:13> col:13 class sentry definition
+| | | |-DefinitionData pass_in_registers standard_layout trivially_copyable has_user_declared_ctor can_const_default_init
+| | | | |-DefaultConstructor
+| | | | |-CopyConstructor simple trivial has_const_param needs_implicit implicit_has_const_param
+| | | | |-MoveConstructor exists simple trivial needs_implicit
+| | | | |-CopyAssignment simple trivial has_const_param needs_implicit implicit_has_const_param
+| | | | |-MoveAssignment exists simple trivial needs_implicit
+| | | | `-Destructor simple irrelevant trivial needs_implicit
+| | | |-CXXRecordDecl 0x1f811a8 <line:686:5, col:43> col:43 implicit class sentry
+| | | |-FieldDecl 0x1f81238 <line:689:7, col:12> col:12 _M_ok 'bool'
+| | | |-AccessSpecDecl 0x1f81288 <line:691:5, col:11> col:5 public
+| | | |-TypedefDecl 0x1f812e8 <line:693:7, col:28> col:28 traits_type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | | | `-SubstTemplateTypeParmType 0x1f812b0 'std::char_traits<wchar_t>' sugar
+| | | |   |-TemplateTypeParmType 0x1f329f0 '_Traits' dependent depth 0 index 1
+| | | |   | `-TemplateTypeParm 0x1f32998 '_Traits'
+| | | |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | | |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | | |-TypedefDecl 0x1f81410 <line:694:7, col:50> col:50 __streambuf_type 'basic_streambuf<wchar_t, std::char_traits<wchar_t>>':'std::basic_streambuf<wchar_t>'
+| | | | `-TemplateSpecializationType 0x1f81390 'basic_streambuf<wchar_t, std::char_traits<wchar_t>>' sugar basic_streambuf
+| | | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | | |   | `-SubstTemplateTypeParmType 0x1f81340 'wchar_t' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f32970 '_CharT' dependent depth 0 index 0
+| | | |   |   | `-TemplateTypeParm 0x1f32918 '_CharT'
+| | | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | | |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | | |   | `-SubstTemplateTypeParmType 0x1f812b0 'std::char_traits<wchar_t>' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f329f0 '_Traits' dependent depth 0 index 1
+| | | |   |   | `-TemplateTypeParm 0x1f32998 '_Traits'
+| | | |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | | |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | | |   `-RecordType 0x1598950 'std::basic_streambuf<wchar_t>'
+| | | |     `-ClassTemplateSpecialization 0x1598850 'basic_streambuf'
+| | | |-TypedefDecl 0x1f81510 <line:695:7, col:48> col:48 __istream_type 'basic_istream<wchar_t, std::char_traits<wchar_t>>':'std::basic_istream<wchar_t>'
+| | | | `-TemplateSpecializationType 0x1f81490 'basic_istream<wchar_t, std::char_traits<wchar_t>>' sugar basic_istream
+| | | |   |-TemplateArgument type 'wchar_t':'wchar_t'
+| | | |   | `-SubstTemplateTypeParmType 0x1f81340 'wchar_t' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f32970 '_CharT' dependent depth 0 index 0
+| | | |   |   | `-TemplateTypeParm 0x1f32918 '_CharT'
+| | | |   |   `-BuiltinType 0x1479350 'wchar_t'
+| | | |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+| | | |   | `-SubstTemplateTypeParmType 0x1f812b0 'std::char_traits<wchar_t>' sugar
+| | | |   |   |-TemplateTypeParmType 0x1f329f0 '_Traits' dependent depth 0 index 1
+| | | |   |   | `-TemplateTypeParm 0x1f32998 '_Traits'
+| | | |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+| | | |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+| | | |   `-RecordType 0x1598c00 'std::basic_istream<wchar_t>'
+| | | |     `-ClassTemplateSpecialization 0x1598b00 'basic_istream'
+| | | |-TypedefDecl 0x1f81640 <line:696:7, col:54> col:54 __ctype_type 'typename __istream_type::__ctype_type':'std::ctype<wchar_t>'
+| | | | `-ElaboratedType 0x1f815f0 'typename __istream_type::__ctype_type' sugar
+| | | |   `-TypedefType 0x1f815d0 'std::basic_istream<wchar_t>::__ctype_type' sugar
+| | | |     |-Typedef 0x1f2c4c0 '__ctype_type'
+| | | |     `-TemplateSpecializationType 0x1f2c460 'ctype<wchar_t>' sugar ctype
+| | | |       |-TemplateArgument type 'wchar_t':'wchar_t'
+| | | |       | `-SubstTemplateTypeParmType 0x1f2ba70 'wchar_t' sugar
+| | | |       |   |-TemplateTypeParmType 0x1f17380 '_CharT' dependent depth 0 index 0
+| | | |       |   | `-TemplateTypeParm 0x1f17330 '_CharT'
+| | | |       |   `-BuiltinType 0x1479350 'wchar_t'
+| | | |       `-RecordType 0x18f1110 'std::ctype<wchar_t>'
+| | | |         `-ClassTemplateSpecialization 0x1e1d0a8 'ctype'
+| | | |-TypedefDecl 0x1f81720 <line:697:7, col:43> col:43 __int_type 'typename char_traits<wchar_t>::int_type':'unsigned int'
+| | | | `-ElaboratedType 0x1f816d0 'typename char_traits<wchar_t>::int_type' sugar
+| | | |   `-TypedefType 0x16ee5b0 'std::char_traits<wchar_t>::int_type' sugar
+| | | |     |-Typedef 0x16ecd58 'int_type'
+| | | |     `-UsingType 0x16ecd20 'wint_t' sugar
+| | | |       |-UsingShadow 0x157ebd0 'wint_t'
+| | | |       `-TypedefType 0x156b1e0 'wint_t' sugar
+| | | |         |-Typedef 0x153be28 'wint_t'
+| | | |         `-BuiltinType 0x1478ef0 'unsigned int'
+| | | |-CXXConstructorDecl 0x1f81a10 <line:721:7, line:722:75> col:7 sentry 'void (basic_istream<wchar_t, std::char_traits<wchar_t>> &, bool)'
+| | | | |-ParmVarDecl 0x1f81858 <col:14, col:46> col:46 __is 'basic_istream<wchar_t, std::char_traits<wchar_t>> &'
+| | | | `-ParmVarDecl 0x1f818c0 <col:52, col:70> col:57 __noskipws 'bool'
+| | | `-CXXConversionDecl 0x1f81ad8 <line:732:7, line:735:23> line:734:7 operator bool 'bool () const'
+| | |-FriendDecl 0x1f2ca00 <line:108:7, col:20> col:14 'class sentry':'std::basic_istream<wchar_t>::sentry'
+| | |-CXXMethodDecl 0x1f2cd18 <line:119:7, line:121:29> line:120:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::__istream_type &(*)(std::basic_istream<wchar_t>::__istream_type &))'
+| | | `-ParmVarDecl 0x1f2cc20 <col:18, col:57> col:36 __pf 'std::basic_istream<wchar_t>::__istream_type &(*)(std::basic_istream<wchar_t>::__istream_type &)'
+| | |-CXXMethodDecl 0x1f2d048 <line:123:7, line:128:7> line:124:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::__ios_type &(*)(std::basic_istream<wchar_t>::__ios_type &))'
+| | | `-ParmVarDecl 0x1f2cf50 <col:18, col:49> col:32 __pf 'std::basic_istream<wchar_t>::__ios_type &(*)(std::basic_istream<wchar_t>::__ios_type &)'
+| | |-CXXMethodDecl 0x1f2d208 <line:130:7, line:135:7> line:131:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(std::ios_base &(*)(std::ios_base &))'
+| | | `-ParmVarDecl 0x1f2d110 <col:18, col:45> col:30 __pf 'std::ios_base &(*)(std::ios_base &)'
+| | |-CXXMethodDecl 0x1f2d3c8 <line:167:7, line:169:33> line:168:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(bool &)'
+| | | `-ParmVarDecl 0x1f2d2d0 <col:18, col:24> col:24 __n 'bool &'
+| | |-CXXMethodDecl 0x1f2d588 <line:171:7, line:172:28> col:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(short &)'
+| | | `-ParmVarDecl 0x1f2d490 <col:18, col:25> col:25 __n 'short &'
+| | |-CXXMethodDecl 0x1f2d748 <line:174:7, line:176:33> line:175:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(unsigned short &)'
+| | | `-ParmVarDecl 0x1f2d650 <col:18, col:34> col:34 __n 'unsigned short &'
+| | |-CXXMethodDecl 0x1f2d908 <line:178:7, line:179:26> col:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(int &)'
+| | | `-ParmVarDecl 0x1f2d810 <col:18, col:23> col:23 __n 'int &'
+| | |-CXXMethodDecl 0x1f2dac8 <line:181:7, line:183:33> line:182:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(unsigned int &)'
+| | | `-ParmVarDecl 0x1f2d9d0 <col:18, col:32> col:32 __n 'unsigned int &'
+| | |-CXXMethodDecl 0x1f2dc88 <line:185:7, line:187:33> line:186:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(long &)'
+| | | `-ParmVarDecl 0x1f2db90 <col:18, col:24> col:24 __n 'long &'
+| | |-CXXMethodDecl 0x1f2de48 <line:189:7, line:191:33> line:190:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(unsigned long &)'
+| | | `-ParmVarDecl 0x1f2dd50 <col:18, col:33> col:33 __n 'unsigned long &'
+| | |-CXXMethodDecl 0x1f2e008 <line:194:7, line:196:33> line:195:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(long long &)'
+| | | `-ParmVarDecl 0x1f2df10 <col:18, col:29> col:29 __n 'long long &'
+| | |-CXXMethodDecl 0x1f2e1c8 <line:198:7, line:200:33> line:199:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(unsigned long long &)'
+| | | `-ParmVarDecl 0x1f2e0d0 <col:18, col:38> col:38 __n 'unsigned long long &'
+| | |-CXXMethodDecl 0x1f2e388 <line:213:7, line:215:33> line:214:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(float &)'
+| | | `-ParmVarDecl 0x1f2e290 <col:18, col:25> col:25 __f 'float &'
+| | |-CXXMethodDecl 0x1f2e548 <line:217:7, line:219:33> line:218:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(double &)'
+| | | `-ParmVarDecl 0x1f2e450 <col:18, col:26> col:26 __f 'double &'
+| | |-CXXMethodDecl 0x1f2e708 <line:221:7, line:223:33> line:222:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(long double &)'
+| | | `-ParmVarDecl 0x1f2e610 <col:18, col:31> col:31 __f 'long double &'
+| | |-CXXMethodDecl 0x1f2e8c8 <line:234:7, line:236:33> line:235:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(void *&)'
+| | | `-ParmVarDecl 0x1f2e7d0 <col:18, col:25> col:25 __p 'void *&'
+| | |-CXXMethodDecl 0x1f2ea98 <line:258:7, line:259:40> col:7 operator>> 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::__streambuf_type *)'
+| | | `-ParmVarDecl 0x1f2e9a0 <col:18, col:36> col:36 __sb 'std::basic_istream<wchar_t>::__streambuf_type *'
+| | |-CXXMethodDecl 0x1f2eb60 <line:268:7, line:270:27> line:269:7 gcount 'std::streamsize () const'
+| | |-CXXMethodDecl 0x1f2ec78 <line:301:7, line:302:11> col:7 get 'std::basic_istream<wchar_t>::int_type ()'
+| | |-CXXMethodDecl 0x1f2ee78 <line:315:7, line:316:25> col:7 get 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type &)'
+| | | `-ParmVarDecl 0x1f2ed88 <col:11, col:22> col:22 __c 'std::basic_istream<wchar_t>::char_type &'
+| | |-CXXMethodDecl 0x1f2f178 <line:342:7, line:343:60> col:7 get 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type *, std::streamsize, std::basic_istream<wchar_t>::char_type)'
+| | | |-ParmVarDecl 0x1f2ef78 <col:11, col:22> col:22 __s 'std::basic_istream<wchar_t>::char_type *'
+| | | |-ParmVarDecl 0x1f2efe0 <col:27, col:38> col:38 __n 'std::streamsize':'long'
+| | | `-ParmVarDecl 0x1f2f058 <col:43, col:53> col:53 __delim 'std::basic_istream<wchar_t>::char_type':'wchar_t'
+| | |-CXXMethodDecl 0x1f2f3d8 <line:353:7, line:355:56> line:354:7 get 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f2f260 <col:11, col:22> col:22 __s 'std::basic_istream<wchar_t>::char_type *'
+| | | `-ParmVarDecl 0x1f2f2c8 <col:27, col:38> col:38 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f2f678 <line:376:7, line:377:52> col:7 get 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::__streambuf_type &, std::basic_istream<wchar_t>::char_type)'
+| | | |-ParmVarDecl 0x1f2f4e8 <col:11, col:29> col:29 __sb 'std::basic_istream<wchar_t>::__streambuf_type &'
+| | | `-ParmVarDecl 0x1f2f560 <col:35, col:45> col:45 __delim 'std::basic_istream<wchar_t>::char_type':'wchar_t'
+| | |-CXXMethodDecl 0x1f2f848 <line:386:7, line:388:52> line:387:7 get 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::__streambuf_type &)'
+| | | `-ParmVarDecl 0x1f2f758 <col:11, col:29> col:29 __sb 'std::basic_istream<wchar_t>::__streambuf_type &'
+| | |-CXXMethodDecl 0x1f2faa0 <line:415:7, line:416:64> line:664:5 getline 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type *, std::streamsize, std::basic_istream<wchar_t>::char_type)'
+| | | |-ParmVarDecl 0x1f2f920 <line:416:15, col:26> col:26 __s 'std::basic_istream<wchar_t>::char_type *'
+| | | |-ParmVarDecl 0x1f2f988 <col:31, col:42> col:42 __n 'std::streamsize':'long'
+| | | `-ParmVarDecl 0x1f2fa00 <col:47, col:57> col:57 __delim 'std::basic_istream<wchar_t>::char_type':'wchar_t'
+| | |-CXXMethodDecl 0x1f2fc78 <line:426:7, line:428:60> line:427:7 getline 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f2fb78 <col:15, col:26> col:26 __s 'std::basic_istream<wchar_t>::char_type *'
+| | | `-ParmVarDecl 0x1f2fbe0 <col:31, col:42> col:42 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f2fed8 <line:450:7, line:451:46> line:674:5 ignore 'std::basic_istream<wchar_t>::__istream_type &(std::streamsize, std::basic_istream<wchar_t>::int_type)'
+| | | |-ParmVarDecl 0x1f2fd48 <line:451:14, col:25> col:25 __n 'std::streamsize':'long'
+| | | `-ParmVarDecl 0x1f2fdc0 <col:30, col:39> col:39 __delim 'std::basic_istream<wchar_t>::int_type':'unsigned int'
+| | |-CXXMethodDecl 0x1f30088 <line:453:7, line:454:28> line:669:5 ignore 'std::basic_istream<wchar_t>::__istream_type &(std::streamsize)'
+| | | `-ParmVarDecl 0x1f2ff98 <line:454:14, col:25> col:25 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f301c8 <line:456:7, line:457:14> col:7 ignore 'std::basic_istream<wchar_t>::__istream_type &()'
+| | |-CXXMethodDecl 0x1f302a8 <line:467:7, line:468:12> col:7 peek 'std::basic_istream<wchar_t>::int_type ()'
+| | |-CXXMethodDecl 0x1f30468 <line:485:7, line:486:42> col:7 read 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f30368 <col:12, col:23> col:23 __s 'std::basic_istream<wchar_t>::char_type *'
+| | | `-ParmVarDecl 0x1f303d0 <col:28, col:39> col:39 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f30678 <line:504:7, line:505:46> col:7 readsome 'std::streamsize (std::basic_istream<wchar_t>::char_type *, std::streamsize)'
+| | | |-ParmVarDecl 0x1f30538 <col:16, col:27> col:27 __s 'std::basic_istream<wchar_t>::char_type *'
+| | | `-ParmVarDecl 0x1f305a0 <col:32, col:43> col:43 __n 'std::streamsize':'long'
+| | |-CXXMethodDecl 0x1f30838 <line:521:7, line:522:28> col:7 putback 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::char_type)'
+| | | `-ParmVarDecl 0x1f30748 <col:15, col:25> col:25 __c 'std::basic_istream<wchar_t>::char_type':'wchar_t'
+| | |-CXXMethodDecl 0x1f30910 <line:537:7, line:538:13> col:7 unget 'std::basic_istream<wchar_t>::__istream_type &()'
+| | |-CXXMethodDecl 0x1f309c0 <line:555:7, line:556:12> col:7 sync 'int ()'
+| | |-CXXMethodDecl 0x1f30ad8 <line:570:7, line:571:13> col:7 tellg 'std::basic_istream<wchar_t>::pos_type ()'
+| | |-CXXMethodDecl 0x1f30c88 <line:585:7, line:586:21> col:7 seekg 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::pos_type)'
+| | | `-ParmVarDecl 0x1f30b98 <col:13> col:21 'std::basic_istream<wchar_t>::pos_type':'std::fpos<__mbstate_t>'
+| | |-CXXMethodDecl 0x1f30ee8 <line:601:7, line:602:40> col:7 seekg 'std::basic_istream<wchar_t>::__istream_type &(std::basic_istream<wchar_t>::off_type, ios_base::seekdir)'
+| | | |-ParmVarDecl 0x1f30d70 <col:13> col:21 'std::basic_istream<wchar_t>::off_type':'long'
+| | | `-ParmVarDecl 0x1f30dd8 <col:23, col:33> col:40 'ios_base::seekdir':'std::_Ios_Seekdir'
+| | |-AccessSpecDecl 0x1f30fb8 <line:605:5, col:14> col:5 protected
+| | |-CXXConstructorDecl 0x1f31000 <line:606:7, line:608:24> line:606:7 basic_istream 'void ()'
+| | |-CXXConstructorDecl 0x1f311e8 <line:611:7, col:50> col:7 basic_istream 'void (const std::basic_istream<wchar_t> &)' delete
+| | | `-ParmVarDecl 0x1f31108 <col:21, col:40> col:41 'const std::basic_istream<wchar_t> &'
+| | |-CXXConstructorDecl 0x1f313d8 <line:613:7, line:618:7> line:613:7 basic_istream 'void (std::basic_istream<wchar_t> &&)'
+| | | `-ParmVarDecl 0x1f312f8 <col:21, col:37> col:37 __rhs 'std::basic_istream<wchar_t> &&'
+| | |-CXXMethodDecl 0x1f31578 <line:622:7, col:61> col:22 operator= 'std::basic_istream<wchar_t> &(const std::basic_istream<wchar_t> &)' delete
+| | | `-ParmVarDecl 0x1f314b8 <col:32, col:51> col:52 'const std::basic_istream<wchar_t> &'
+| | |-CXXMethodDecl 0x1f31768 <line:624:7, line:629:7> line:625:7 operator= 'std::basic_istream<wchar_t> &(std::basic_istream<wchar_t> &&)'
+| | | `-ParmVarDecl 0x1f316a0 <col:17, col:33> col:33 __rhs 'std::basic_istream<wchar_t> &&'
+| | |-CXXMethodDecl 0x1f31908 <line:631:7, line:636:7> line:632:7 swap 'void (std::basic_istream<wchar_t> &)'
+| | | `-ParmVarDecl 0x1f31840 <col:12, col:27> col:27 __rhs 'std::basic_istream<wchar_t> &'
+| | `-FunctionTemplateDecl 0x1f31c18 <line:639:7, line:641:25> col:2 _M_extract
+| |   |-TemplateTypeParmDecl 0x1f319c0 <line:639:16, col:25> col:25 typename depth 0 index 0 _ValueT
+| |   |-CXXMethodDecl 0x1f31b78 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(_ValueT &)'
+| |   | `-ParmVarDecl 0x1f31a88 <col:13, col:22> col:22 __v '_ValueT &'
+| |   |-CXXMethodDecl 0x1f83258 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(unsigned short &)'
+| |   | |-TemplateArgument type 'unsigned short'
+| |   | | `-BuiltinType 0x1478ed0 'unsigned short'
+| |   | `-ParmVarDecl 0x1f83198 <col:13, col:22> col:22 __v 'unsigned short &'
+| |   |-CXXMethodDecl 0x1f835a8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(unsigned int &)'
+| |   | |-TemplateArgument type 'unsigned int'
+| |   | | `-BuiltinType 0x1478ef0 'unsigned int'
+| |   | `-ParmVarDecl 0x1f834e8 <col:13, col:22> col:22 __v 'unsigned int &'
+| |   |-CXXMethodDecl 0x1f83918 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(long &)'
+| |   | |-TemplateArgument type 'long'
+| |   | | `-BuiltinType 0x1478e70 'long'
+| |   | `-ParmVarDecl 0x1f83858 <col:13, col:22> col:22 __v 'long &'
+| |   |-CXXMethodDecl 0x1f83c68 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(unsigned long &)'
+| |   | |-TemplateArgument type 'unsigned long'
+| |   | | `-BuiltinType 0x1478f10 'unsigned long'
+| |   | `-ParmVarDecl 0x1f83ba8 <col:13, col:22> col:22 __v 'unsigned long &'
+| |   |-CXXMethodDecl 0x1f83fa8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(bool &)'
+| |   | |-TemplateArgument type 'bool'
+| |   | | `-BuiltinType 0x1478dd0 'bool'
+| |   | `-ParmVarDecl 0x1f83ee8 <col:13, col:22> col:22 __v 'bool &'
+| |   |-CXXMethodDecl 0x1f842f8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(long long &)'
+| |   | |-TemplateArgument type 'long long'
+| |   | | `-BuiltinType 0x1478e90 'long long'
+| |   | `-ParmVarDecl 0x1f84238 <col:13, col:22> col:22 __v 'long long &'
+| |   |-CXXMethodDecl 0x1f84648 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(unsigned long long &)'
+| |   | |-TemplateArgument type 'unsigned long long'
+| |   | | `-BuiltinType 0x1478f30 'unsigned long long'
+| |   | `-ParmVarDecl 0x1f84588 <col:13, col:22> col:22 __v 'unsigned long long &'
+| |   |-CXXMethodDecl 0x1f84998 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(float &)'
+| |   | |-TemplateArgument type 'float'
+| |   | | `-BuiltinType 0x1478f50 'float'
+| |   | `-ParmVarDecl 0x1f848d8 <col:13, col:22> col:22 __v 'float &'
+| |   |-CXXMethodDecl 0x1f84ce8 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(double &)'
+| |   | |-TemplateArgument type 'double'
+| |   | | `-BuiltinType 0x1478f70 'double'
+| |   | `-ParmVarDecl 0x1f84c28 <col:13, col:22> col:22 __v 'double &'
+| |   |-CXXMethodDecl 0x1f85038 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(long double &)'
+| |   | |-TemplateArgument type 'long double'
+| |   | | `-BuiltinType 0x1478f90 'long double'
+| |   | `-ParmVarDecl 0x1f84f78 <col:13, col:22> col:22 __v 'long double &'
+| |   `-CXXMethodDecl 0x1f85388 <line:640:2, line:641:25> col:2 _M_extract 'std::basic_istream<wchar_t>::__istream_type &(void *&)'
+| |     |-TemplateArgument type 'void *'
+| |     | `-PointerType 0x1479510 'void *'
+| |     |   `-BuiltinType 0x1478db0 'void'
+| |     `-ParmVarDecl 0x1f852c8 <col:13, col:22> col:22 __v 'void *&'
+| `-ClassTemplateSpecializationDecl 0x1599060 parent 0x1589e48 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc:1119:3, col:47> col:25 class basic_iostream definition
+|   |-DefinitionData polymorphic has_user_declared_ctor has_mutable_fields can_const_default_init
+|   | |-DefaultConstructor exists non_trivial user_provided
+|   | |-CopyConstructor non_trivial user_declared has_const_param needs_overload_resolution implicit_has_const_param
+|   | |-MoveConstructor exists non_trivial user_declared needs_overload_resolution
+|   | |-CopyAssignment non_trivial has_const_param user_declared needs_overload_resolution implicit_has_const_param
+|   | |-MoveAssignment exists non_trivial user_declared needs_overload_resolution
+|   | `-Destructor non_trivial user_declared needs_overload_resolution
+|   |-public 'basic_istream<wchar_t, std::char_traits<wchar_t>>':'std::basic_istream<wchar_t>'
+|   |-public 'basic_ostream<wchar_t, std::char_traits<wchar_t>>':'std::basic_ostream<wchar_t>'
+|   |-TemplateArgument type 'wchar_t'
+|   | `-BuiltinType 0x1479350 'wchar_t'
+|   |-TemplateArgument type 'std::char_traits<wchar_t>'
+|   | `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+|   |   `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+|   |-CXXRecordDecl 0x1f85820 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/istream:890:5, col:11> col:11 implicit class basic_iostream
+|   |-AccessSpecDecl 0x1f858b0 <line:894:5, col:11> col:5 public
+|   |-TypedefDecl 0x1f858e8 <line:898:7, col:27> col:27 char_type 'wchar_t':'wchar_t'
+|   | `-SubstTemplateTypeParmType 0x1f85600 'wchar_t' sugar
+|   |   |-TemplateTypeParmType 0x1f38bb0 '_CharT' dependent depth 0 index 0
+|   |   | `-TemplateTypeParm 0x1f38b58 '_CharT'
+|   |   `-BuiltinType 0x1479350 'wchar_t'
+|   |-TypedefDecl 0x1f859d0 <line:899:7, col:44> col:44 int_type 'typename char_traits<wchar_t>::int_type':'unsigned int'
+|   | `-ElaboratedType 0x1f85980 'typename char_traits<wchar_t>::int_type' sugar
+|   |   `-TypedefType 0x16ee5b0 'std::char_traits<wchar_t>::int_type' sugar
+|   |     |-Typedef 0x16ecd58 'int_type'
+|   |     `-UsingType 0x16ecd20 'wint_t' sugar
+|   |       |-UsingShadow 0x157ebd0 'wint_t'
+|   |       `-TypedefType 0x156b1e0 'wint_t' sugar
+|   |         |-Typedef 0x153be28 'wint_t'
+|   |         `-BuiltinType 0x1478ef0 'unsigned int'
+|   |-TypedefDecl 0x1f85aa0 <line:900:7, col:44> col:44 pos_type 'typename char_traits<wchar_t>::pos_type':'std::fpos<__mbstate_t>'
+|   | `-ElaboratedType 0x1f85a50 'typename char_traits<wchar_t>::pos_type' sugar
+|   |   `-TypedefType 0x1dc8640 'std::char_traits<wchar_t>::pos_type' sugar
+|   |     |-Typedef 0x16ece50 'pos_type'
+|   |     `-TypedefType 0x16ece20 'std::wstreampos' sugar
+|   |       |-Typedef 0x1589be0 'wstreampos'
+|   |       `-TemplateSpecializationType 0x1589b60 'fpos<mbstate_t>' sugar fpos
+|   |         |-TemplateArgument type 'mbstate_t':'__mbstate_t'
+|   |         | `-UsingType 0x1589930 'mbstate_t' sugar
+|   |         |   |-UsingShadow 0x157d958 'mbstate_t'
+|   |         |   `-TypedefType 0x156b5f0 'mbstate_t' sugar
+|   |         |     |-Typedef 0x1557ab0 'mbstate_t'
+|   |         |     `-TypedefType 0x153c430 '__mbstate_t' sugar
+|   |         |       |-Typedef 0x153c3b8 '__mbstate_t'
+|   |         |       `-ElaboratedType 0x153c360 'struct __mbstate_t' sugar
+|   |         |         `-RecordType 0x153bf10 '__mbstate_t'
+|   |         |           `-CXXRecord 0x153be80 ''
+|   |         `-RecordType 0x1589a50 'std::fpos<__mbstate_t>'
+|   |           `-ClassTemplateSpecialization 0x1589968 'fpos'
+|   |-TypedefDecl 0x1f85b70 <line:901:7, col:44> col:44 off_type 'typename char_traits<wchar_t>::off_type':'long'
+|   | `-ElaboratedType 0x1f85b20 'typename char_traits<wchar_t>::off_type' sugar
+|   |   `-TypedefType 0x1dc8730 'std::char_traits<wchar_t>::off_type' sugar
+|   |     |-Typedef 0x16ecdc0 'off_type'
+|   |     `-TypedefType 0x15857e0 'std::streamoff' sugar
+|   |       |-Typedef 0x1584e48 'streamoff'
+|   |       `-BuiltinType 0x1478e70 'long'
+|   |-TypedefDecl 0x1f85bd8 <line:902:7, col:28> col:28 traits_type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+|   | `-SubstTemplateTypeParmType 0x1f85640 'std::char_traits<wchar_t>' sugar
+|   |   |-TemplateTypeParmType 0x1f38c30 '_Traits' dependent depth 0 index 1
+|   |   | `-TemplateTypeParm 0x1f38bd8 '_Traits'
+|   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+|   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+|   |-TypedefDecl 0x1f85cd0 <line:905:7, col:47> col:47 __istream_type 'basic_istream<wchar_t, std::char_traits<wchar_t>>':'std::basic_istream<wchar_t>'
+|   | `-TemplateSpecializationType 0x1f85c50 'basic_istream<wchar_t, std::char_traits<wchar_t>>' sugar basic_istream
+|   |   |-TemplateArgument type 'wchar_t':'wchar_t'
+|   |   | `-SubstTemplateTypeParmType 0x1f85600 'wchar_t' sugar
+|   |   |   |-TemplateTypeParmType 0x1f38bb0 '_CharT' dependent depth 0 index 0
+|   |   |   | `-TemplateTypeParm 0x1f38b58 '_CharT'
+|   |   |   `-BuiltinType 0x1479350 'wchar_t'
+|   |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+|   |   | `-SubstTemplateTypeParmType 0x1f85640 'std::char_traits<wchar_t>' sugar
+|   |   |   |-TemplateTypeParmType 0x1f38c30 '_Traits' dependent depth 0 index 1
+|   |   |   | `-TemplateTypeParm 0x1f38bd8 '_Traits'
+|   |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+|   |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+|   |   `-RecordType 0x1598c00 'std::basic_istream<wchar_t>'
+|   |     `-ClassTemplateSpecialization 0x1598b00 'basic_istream'
+|   |-TypedefDecl 0x1f85dd0 <line:906:7, col:47> col:47 __ostream_type 'basic_ostream<wchar_t, std::char_traits<wchar_t>>':'std::basic_ostream<wchar_t>'
+|   | `-TemplateSpecializationType 0x1f85d50 'basic_ostream<wchar_t, std::char_traits<wchar_t>>' sugar basic_ostream
+|   |   |-TemplateArgument type 'wchar_t':'wchar_t'
+|   |   | `-SubstTemplateTypeParmType 0x1f85600 'wchar_t' sugar
+|   |   |   |-TemplateTypeParmType 0x1f38bb0 '_CharT' dependent depth 0 index 0
+|   |   |   | `-TemplateTypeParm 0x1f38b58 '_CharT'
+|   |   |   `-BuiltinType 0x1479350 'wchar_t'
+|   |   |-TemplateArgument type 'std::char_traits<wchar_t>':'std::char_traits<wchar_t>'
+|   |   | `-SubstTemplateTypeParmType 0x1f85640 'std::char_traits<wchar_t>' sugar
+|   |   |   |-TemplateTypeParmType 0x1f38c30 '_Traits' dependent depth 0 index 1
+|   |   |   | `-TemplateTypeParm 0x1f38bd8 '_Traits'
+|   |   |   `-RecordType 0x15385d0 'std::char_traits<wchar_t>'
+|   |   |     `-ClassTemplateSpecialization 0x16eca48 'char_traits'
+|   |   `-RecordType 0x1598eb0 'std::basic_ostream<wchar_t>'
+|   |     `-ClassTemplateSpecialization 0x1598db0 'basic_ostream'
+|   |-CXXConstructorDecl 0x1f86000 <line:914:7, line:916:54> line:915:7 basic_iostream 'void (basic_streambuf<wchar_t, std::char_traits<wchar_t>> *)'
+|   | `-ParmVarDecl 0x1f85f08 <col:22, col:56> col:56 __sb 'basic_streambuf<wchar_t, std::char_traits<wchar_t>> *'
+|   |-CXXDestructorDecl 0x1f860e8 <line:921:7, line:922:27> col:7 ~basic_iostream 'void () throw()' virtual
+|   | `-Overrides: [ 0x1f2c7f8 basic_istream::~basic_istream 'void () throw()', 0x1f0d708 basic_ostream::~basic_ostream 'void () throw()' ]
+|   |-AccessSpecDecl 0x1f861e0 <line:924:5, col:14> col:5 protected
+|   |-CXXConstructorDecl 0x1f86228 <line:925:7, line:926:46> line:925:7 basic_iostream 'void ()'
+|   |-CXXConstructorDecl 0x1f86408 <line:929:7, col:52> col:7 basic_iostream 'void (const std::basic_iostream<wchar_t> &)' delete
+|   | `-ParmVarDecl 0x1f86328 <col:22, col:42> col:43 'const std::basic_iostream<wchar_t> &'
+|   |-CXXConstructorDecl 0x1f865f8 <line:931:7, line:933:9> line:931:7 basic_iostream 'void (std::basic_iostream<wchar_t> &&)'
+|   | `-ParmVarDecl 0x1f86518 <col:22, col:39> col:39 __rhs 'std::basic_iostream<wchar_t> &&'
+|   |-CXXMethodDecl 0x1f86798 <line:937:7, col:63> col:23 operator= 'std::basic_iostream<wchar_t> &(const std::basic_iostream<wchar_t> &)' delete
+|   | `-ParmVarDecl 0x1f866d8 <col:33, col:53> col:54 'const std::basic_iostream<wchar_t> &'
+|   |-CXXMethodDecl 0x1f86928 <line:939:7, line:944:7> line:940:7 operator= 'std::basic_iostream<wchar_t> &(std::basic_iostream<wchar_t> &&)'
+|   | `-ParmVarDecl 0x1f86860 <col:17, col:34> col:34 __rhs 'std::basic_iostream<wchar_t> &&'
+|   `-CXXMethodDecl 0x1f86a90 <line:946:7, line:948:38> line:947:7 swap 'void (std::basic_iostream<wchar_t> &)'
+|     `-ParmVarDecl 0x1f86a00 <col:12, col:28> col:28 __rhs 'std::basic_iostream<wchar_t> &'
+|-NamespaceDecl 0x1f86b68 prev 0x1f3d3c0 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream:42:1, line:77:1> line:42:11 std
+| |-original Namespace 0x14be660 'std'
+| |-VisibilityAttr 0x1f86bd8 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h:70:49, col:67> Default
+| |-VarDecl 0x1f86c40 </usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream:60:3, col:18> col:18 used cin 'std::istream':'std::basic_istream<char>' extern destroyed
+| |-VarDecl 0x1f86cb8 <line:61:3, col:18> col:18 used cout 'std::ostream':'std::basic_ostream<char>' extern destroyed
+| |-VarDecl 0x1f86d30 <line:62:3, col:18> col:18 cerr 'std::ostream':'std::basic_ostream<char>' extern destroyed
+| |-VarDecl 0x1f86da8 <line:63:3, col:18> col:18 clog 'std::ostream':'std::basic_ostream<char>' extern destroyed
+| |-VarDecl 0x1f86e20 <line:66:3, col:19> col:19 wcin 'std::wistream':'std::basic_istream<wchar_t>' extern destroyed
+| |-VarDecl 0x1f86e98 <line:67:3, col:19> col:19 wcout 'std::wostream':'std::basic_ostream<wchar_t>' extern destroyed
+| |-VarDecl 0x1f86f10 <line:68:3, col:19> col:19 wcerr 'std::wostream':'std::basic_ostream<wchar_t>' extern destroyed
+| |-VarDecl 0x1f86f88 <line:69:3, col:19> col:19 wclog 'std::wostream':'std::basic_ostream<wchar_t>' extern destroyed
+| `-VarDecl 0x1f87080 <line:74:3, col:25> col:25 __ioinit 'ios_base::Init':'std::ios_base::Init' static callinit destroyed
+|   `-CXXConstructExpr 0x1f871d8 <col:25> 'ios_base::Init':'std::ios_base::Init' 'void ()'
+|-UsingDirectiveDecl 0x1f87258 <source.cpp:3:1, col:17> col:17 Namespace 0x14be660 'std'
+|-VarDecl 0x1f872c8 <line:6:1, col:7> col:5 used i 'int' cinit
+| `-IntegerLiteral 0x1f87330 <col:7> 'int' 1
+|-FunctionDecl 0x1f873d0 <line:8:1, line:13:1> line:8:5 used GetN 'int ()'
+| `-CompoundStmt 0x1f8b2a0 <col:11, line:13:1>
+|   |-DeclStmt 0x1f874f0 <line:10:2, col:7>
+|   | `-VarDecl 0x1f87488 <col:2, col:6> col:6 used n 'int'
+|   |-CXXOperatorCallExpr 0x1f8b030 <line:11:2, col:7> 'std::basic_istream<char>::__istream_type':'std::basic_istream<char>' lvalue '>>'
+|   | |-ImplicitCastExpr 0x1f8b018 <col:5> 'std::basic_istream<char>::__istream_type &(*)(int &)' <FunctionToPointerDecay>
+|   | | `-DeclRefExpr 0x1f8afa0 <col:5> 'std::basic_istream<char>::__istream_type &(int &)' lvalue CXXMethod 0x1f23e48 'operator>>' 'std::basic_istream<char>::__istream_type &(int &)'
+|   | |-DeclRefExpr 0x1f87508 <col:2> 'std::istream':'std::basic_istream<char>' lvalue Var 0x1f86c40 'cin' 'std::istream':'std::basic_istream<char>'
+|   | `-DeclRefExpr 0x1f87528 <col:7> 'int' lvalue Var 0x1f87488 'n' 'int'
+|   `-ReturnStmt 0x1f8b290 <line:12:2, col:9>
+|     `-ImplicitCastExpr 0x1f8b278 <col:9> 'int' <LValueToRValue>
+|       `-DeclRefExpr 0x1f8b258 <col:9> 'int' lvalue Var 0x1f87488 'n' 'int'
+|-FunctionDecl 0x1f8b4d0 <line:15:1, line:26:1> line:15:12 used Fib 'int (int, int, int)' inline
+| |-ParmVarDecl 0x1f8b2e0 <col:16, col:20> col:20 used a 'int'
+| |-ParmVarDecl 0x1f8b360 <col:22, col:26> col:26 used b 'int'
+| |-ParmVarDecl 0x1f8b3e0 <col:28, col:32> col:32 used n 'int'
+| `-CompoundStmt 0x1f929e0 <col:34, line:26:1>
+|   |-DeclStmt 0x1f8b608 <line:17:2, col:7>
+|   | `-VarDecl 0x1f8b5a0 <col:2, col:6> col:6 used t 'int'
+|   `-WhileStmt 0x1f929c0 <line:18:2, line:24:2>
+|     |-BinaryOperator 0x1f8b690 <line:18:8, col:10> 'bool' '<'
+|     | |-ImplicitCastExpr 0x1f8b660 <col:8> 'int' <LValueToRValue>
+|     | | `-DeclRefExpr 0x1f8b620 <col:8> 'int' lvalue Var 0x1f872c8 'i' 'int'
+|     | `-ImplicitCastExpr 0x1f8b678 <col:10> 'int' <LValueToRValue>
+|     |   `-DeclRefExpr 0x1f8b640 <col:10> 'int' lvalue ParmVar 0x1f8b3e0 'n' 'int'
+|     `-CompoundStmt 0x1f92988 <col:12, line:24:2>
+|       |-BinaryOperator 0x1f8b708 <line:19:3, col:5> 'int' lvalue '='
+|       | |-DeclRefExpr 0x1f8b6b0 <col:3> 'int' lvalue Var 0x1f8b5a0 't' 'int'
+|       | `-ImplicitCastExpr 0x1f8b6f0 <col:5> 'int' <LValueToRValue>
+|       |   `-DeclRefExpr 0x1f8b6d0 <col:5> 'int' lvalue ParmVar 0x1f8b360 'b' 'int'
+|       |-BinaryOperator 0x1f8de20 <line:20:3, col:7> 'int' lvalue '='
+|       | |-DeclRefExpr 0x1f8b728 <col:3> 'int' lvalue ParmVar 0x1f8b360 'b' 'int'
+|       | `-BinaryOperator 0x1f8de00 <col:5, col:7> 'int' '+'
+|       |   |-ImplicitCastExpr 0x1f8b788 <col:5> 'int' <LValueToRValue>
+|       |   | `-DeclRefExpr 0x1f8b748 <col:5> 'int' lvalue ParmVar 0x1f8b2e0 'a' 'int'
+|       |   `-ImplicitCastExpr 0x1f8b7a0 <col:7> 'int' <LValueToRValue>
+|       |     `-DeclRefExpr 0x1f8b768 <col:7> 'int' lvalue ParmVar 0x1f8b360 'b' 'int'
+|       |-CXXOperatorCallExpr 0x1f927f0 <line:21:3, col:12> 'std::basic_ostream<char>::__ostream_type':'std::basic_ostream<char>' lvalue '<<'
+|       | |-ImplicitCastExpr 0x1f927d8 <col:10> 'std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))' <FunctionToPointerDecay>
+|       | | `-DeclRefExpr 0x1f92758 <col:10> 'std::basic_ostream<char>::__ostream_type &(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))' lvalue CXXMethod 0x1f00548 'operator<<' 'std::basic_ostream<char>::__ostream_type &(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))'
+|       | |-CXXOperatorCallExpr 0x1f91cc0 <col:3, col:9> 'std::basic_ostream<char>::__ostream_type':'std::basic_ostream<char>' lvalue '<<'
+|       | | |-ImplicitCastExpr 0x1f91ca8 <col:7> 'std::basic_ostream<char>::__ostream_type &(*)(int)' <FunctionToPointerDecay>
+|       | | | `-DeclRefExpr 0x1f91c28 <col:7> 'std::basic_ostream<char>::__ostream_type &(int)' lvalue CXXMethod 0x1f01518 'operator<<' 'std::basic_ostream<char>::__ostream_type &(int)'
+|       | | |-DeclRefExpr 0x1f8de40 <col:3> 'std::ostream':'std::basic_ostream<char>' lvalue Var 0x1f86cb8 'cout' 'std::ostream':'std::basic_ostream<char>'
+|       | | `-ImplicitCastExpr 0x1f91c10 <col:9> 'int' <LValueToRValue>
+|       | |   `-DeclRefExpr 0x1f8de60 <col:9> 'int' lvalue ParmVar 0x1f8b360 'b' 'int'
+|       | `-ImplicitCastExpr 0x1f92740 <col:12> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &)' <FunctionToPointerDecay>
+|       |   `-DeclRefExpr 0x1f92718 <col:12> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' lvalue Function 0x1f054d8 'endl' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' (FunctionTemplate 0x1ee8808 'endl')
+|       |-BinaryOperator 0x1f928b0 <line:22:3, col:5> 'int' lvalue '='
+|       | |-DeclRefExpr 0x1f92858 <col:3> 'int' lvalue ParmVar 0x1f8b2e0 'a' 'int'
+|       | `-ImplicitCastExpr 0x1f92898 <col:5> 'int' <LValueToRValue>
+|       |   `-DeclRefExpr 0x1f92878 <col:5> 'int' lvalue Var 0x1f8b5a0 't' 'int'
+|       `-BinaryOperator 0x1f92968 <line:23:3, col:7> 'int' lvalue '='
+|         |-DeclRefExpr 0x1f928d0 <col:3> 'int' lvalue Var 0x1f872c8 'i' 'int'
+|         `-BinaryOperator 0x1f92948 <col:5, col:7> 'int' '+'
+|           |-ImplicitCastExpr 0x1f92930 <col:5> 'int' <LValueToRValue>
+|           | `-DeclRefExpr 0x1f928f0 <col:5> 'int' lvalue Var 0x1f872c8 'i' 'int'
+|           `-IntegerLiteral 0x1f92910 <col:7> 'int' 1
+`-FunctionDecl 0x1f92a28 <line:27:1, line:40:1> line:27:5 main 'int ()'
+  `-CompoundStmt 0x1f99558 <line:28:1, line:40:1>
+    |-DeclStmt 0x1f92c68 <line:29:2, col:11>
+    | |-VarDecl 0x1f92ae0 <col:2, col:6> col:6 used a 'int'
+    | |-VarDecl 0x1f92b60 <col:2, col:8> col:8 used b 'int'
+    | `-VarDecl 0x1f92be0 <col:2, col:10> col:10 t 'int'
+    |-BinaryOperator 0x1f92cc0 <line:31:2, col:4> 'int' lvalue '='
+    | |-DeclRefExpr 0x1f92c80 <col:2> 'int' lvalue Var 0x1f92ae0 'a' 'int'
+    | `-IntegerLiteral 0x1f92ca0 <col:4> 'int' 0
+    |-BinaryOperator 0x1f92d20 <line:32:2, col:4> 'int' lvalue '='
+    | |-DeclRefExpr 0x1f92ce0 <col:2> 'int' lvalue Var 0x1f92b60 'b' 'int'
+    | `-IntegerLiteral 0x1f92d00 <col:4> 'int' 1
+    |-DeclStmt 0x1f92e60 <line:33:2, col:14>
+    | `-VarDecl 0x1f92d58 <col:2, col:13> col:6 used n 'int' cinit
+    |   `-CallExpr 0x1f92e40 <col:8, col:13> 'int'
+    |     `-ImplicitCastExpr 0x1f92e28 <col:8> 'int (*)()' <FunctionToPointerDecay>
+    |       `-DeclRefExpr 0x1f92e08 <col:8> 'int ()' lvalue Function 0x1f873d0 'GetN' 'int ()'
+    |-CXXOperatorCallExpr 0x1f94558 <line:34:2, col:11> 'std::basic_ostream<char>::__ostream_type':'std::basic_ostream<char>' lvalue '<<'
+    | |-ImplicitCastExpr 0x1f94540 <col:9> 'std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))' <FunctionToPointerDecay>
+    | | `-DeclRefExpr 0x1f94520 <col:9> 'std::basic_ostream<char>::__ostream_type &(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))' lvalue CXXMethod 0x1f00548 'operator<<' 'std::basic_ostream<char>::__ostream_type &(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))'
+    | |-CXXOperatorCallExpr 0x1f93ba8 <col:2, col:8> 'std::basic_ostream<char>::__ostream_type':'std::basic_ostream<char>' lvalue '<<'
+    | | |-ImplicitCastExpr 0x1f93b90 <col:6> 'std::basic_ostream<char>::__ostream_type &(*)(int)' <FunctionToPointerDecay>
+    | | | `-DeclRefExpr 0x1f93b70 <col:6> 'std::basic_ostream<char>::__ostream_type &(int)' lvalue CXXMethod 0x1f01518 'operator<<' 'std::basic_ostream<char>::__ostream_type &(int)'
+    | | |-DeclRefExpr 0x1f92e78 <col:2> 'std::ostream':'std::basic_ostream<char>' lvalue Var 0x1f86cb8 'cout' 'std::ostream':'std::basic_ostream<char>'
+    | | `-ImplicitCastExpr 0x1f93b58 <col:8> 'int' <LValueToRValue>
+    | |   `-DeclRefExpr 0x1f92e98 <col:8> 'int' lvalue Var 0x1f92ae0 'a' 'int'
+    | `-ImplicitCastExpr 0x1f94508 <col:11> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &)' <FunctionToPointerDecay>
+    |   `-DeclRefExpr 0x1f944e0 <col:11> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' lvalue Function 0x1f054d8 'endl' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' (FunctionTemplate 0x1ee8808 'endl')
+    |-CXXOperatorCallExpr 0x1f95c78 <line:35:2, col:11> 'std::basic_ostream<char>::__ostream_type':'std::basic_ostream<char>' lvalue '<<'
+    | |-ImplicitCastExpr 0x1f95c60 <col:9> 'std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))' <FunctionToPointerDecay>
+    | | `-DeclRefExpr 0x1f95c40 <col:9> 'std::basic_ostream<char>::__ostream_type &(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))' lvalue CXXMethod 0x1f00548 'operator<<' 'std::basic_ostream<char>::__ostream_type &(std::basic_ostream<char>::__ostream_type &(*)(std::basic_ostream<char>::__ostream_type &))'
+    | |-CXXOperatorCallExpr 0x1f952c8 <col:2, col:8> 'std::basic_ostream<char>::__ostream_type':'std::basic_ostream<char>' lvalue '<<'
+    | | |-ImplicitCastExpr 0x1f952b0 <col:6> 'std::basic_ostream<char>::__ostream_type &(*)(int)' <FunctionToPointerDecay>
+    | | | `-DeclRefExpr 0x1f95290 <col:6> 'std::basic_ostream<char>::__ostream_type &(int)' lvalue CXXMethod 0x1f01518 'operator<<' 'std::basic_ostream<char>::__ostream_type &(int)'
+    | | |-DeclRefExpr 0x1f94590 <col:2> 'std::ostream':'std::basic_ostream<char>' lvalue Var 0x1f86cb8 'cout' 'std::ostream':'std::basic_ostream<char>'
+    | | `-ImplicitCastExpr 0x1f95278 <col:8> 'int' <LValueToRValue>
+    | |   `-DeclRefExpr 0x1f945b0 <col:8> 'int' lvalue Var 0x1f92b60 'b' 'int'
+    | `-ImplicitCastExpr 0x1f95c28 <col:11> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &)' <FunctionToPointerDecay>
+    |   `-DeclRefExpr 0x1f95c00 <col:11> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' lvalue Function 0x1f054d8 'endl' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' (FunctionTemplate 0x1ee8808 'endl')
+    |-CallExpr 0x1f95dc0 <line:36:2, col:11> 'int'
+    | |-ImplicitCastExpr 0x1f95da8 <col:2> 'int (*)(int, int, int)' <FunctionToPointerDecay>
+    | | `-DeclRefExpr 0x1f95d58 <col:2> 'int (int, int, int)' lvalue Function 0x1f8b4d0 'Fib' 'int (int, int, int)'
+    | |-ImplicitCastExpr 0x1f98440 <col:6> 'int' <LValueToRValue>
+    | | `-DeclRefExpr 0x1f95cf8 <col:6> 'int' lvalue Var 0x1f92ae0 'a' 'int'
+    | |-ImplicitCastExpr 0x1f98458 <col:8> 'int' <LValueToRValue>
+    | | `-DeclRefExpr 0x1f95d18 <col:8> 'int' lvalue Var 0x1f92b60 'b' 'int'
+    | `-ImplicitCastExpr 0x1f98470 <col:10> 'int' <LValueToRValue>
+    |   `-DeclRefExpr 0x1f95d38 <col:10> 'int' lvalue Var 0x1f92d58 'n' 'int'
+    `-CXXOperatorCallExpr 0x1f99520 <line:38:2, line:5:14> 'basic_ostream<char, std::char_traits<char>>':'std::basic_ostream<char>' lvalue '<<'
+      |-ImplicitCastExpr 0x1f99508 <line:38:6> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &, const char *)' <FunctionToPointerDecay>
+      | `-DeclRefExpr 0x1f99490 <col:6> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)' lvalue Function 0x1f09198 'operator<<' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)'
+      |-DeclRefExpr 0x1f98488 <col:2> 'std::ostream':'std::basic_ostream<char>' lvalue Var 0x1f86cb8 'cout' 'std::ostream':'std::basic_ostream<char>'
+      `-ImplicitCastExpr 0x1f99478 <line:5:14> 'const char *' <ArrayToPointerDecay>
+        `-StringLiteral 0x1f98528 <col:14> 'const char[11]' lvalue "StringTest"
